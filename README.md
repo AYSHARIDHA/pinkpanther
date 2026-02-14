@@ -2,27 +2,28 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# campus shelf🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: pinkpanter
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Aysha ridha - EMEA arts and science collage kondotty
+- Member 2: Rimna parveen - Emea arts and science collage kondotty
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[
+https://aysharidha.github.io/pinkpanther/]
 
 ### Project Description
-[2-3 lines about what your project does]
+campus shelf,is a web application designed to help students share and donate educational resources such as textbooks, lab manuals, and notes. This project organizes students’ donation profiles by subjects, allowing easy browsing and filtering so that students can quickly find available items for their courses.
 
 ### The Problem statement
-[What problem are you solving?]
+Many students struggle to access required textbooks, lab manuals, and study materials due to high costs or unavailability. While some students have extra resources they no longer need, there is no organized platform for sharing or donating these materials efficiently. Existing methods like informal messaging, notice boards, or social media groups are unstructured, making it difficult to find relevant items for a specific subject or course
 
 ### The Solution
-[How are you solving it?]
+A web app that lets students donate and access textbooks, lab manuals, and notes. Users can filter by subject, see availability, and find resources easily, all on a single dynamic page.
 
 ---
 
@@ -31,25 +32,25 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [ JavaScript, html ,css ]
+- Frameworks used: [Bootstrap ]
+- Libraries used: [font awsome (for icons)google fonts]
+- Tools used: [ VS Code ,git hub]
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: [Laptop]
+- Specifications: [4GBram,internet connection]
+- Tools required: [chrome/edge/firefox]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: clean and simple design that allows students to easily navigate and access materials
+- Feature 2: department wise catogories
+- Feature 3: availability of status indicator
+- Feature 4: contribution profile
 
 ---
 
@@ -64,7 +65,7 @@ List the key features of your project:
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[npm start]
 ```
 
 ### For Hardware:
@@ -82,16 +83,14 @@ List the key features of your project:
 ### For Software:
 
 #### Screenshots (Add at least 3)
-
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20095755.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20095742.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20100021.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20100039.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20100929.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20100955.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20095806.png
+https://github.com/AYSHARIDHA/pinkpanther/blob/main/Screenshot%202026-02-14%20100052.png
 #### Diagrams
 
 **System Architecture:**
@@ -100,9 +99,8 @@ List the key features of your project:
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
+The project begins with designing a simple and user-friendly interface using HTML and CSS. The layout is structured department-wise to organize materials efficiently. Users can browse resources, view contributor details, and check availability status. JavaScript is used to handle interactive elements and improve user experience. Finally, the project is tested and deployed using GitHub for version control and sharing.
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
 
 ---
 
@@ -215,20 +213,6 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
 
 #### Assembly Instructions
 
