@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.semester {
+    margin-bottom: 40px;
+}
+
+.semester h2 {
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 5px;
+}
+
+.student-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.student-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+.student-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.student-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.student-card li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.not-available {
+    color: red;
+    font-weight: bold;
+}

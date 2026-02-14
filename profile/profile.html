@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Donation Profiles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <h1 class="page-title">pass it forward</h1>
+
+    <div class="container">
+
+        <!-- Rimna -->
+
+        <div data-subject="microbiology" class="profile-card">
+            <div class="profile-header">
+                <img src="https://via.placeholder.com/90" alt="Rimna">
+                <div>
+                    <h2>Rimna</h2>
+                    <p>Microbiology</p>
+                </div>
+            </div>
+
+            <div class="donation-section">
+                <h3>Donation Items</h3>
+
+                <div class="item available">
+                    <span>Microbiology Textbook</span>
+                    <span class="status">Available</span>
+                </div>
+
+                <div class="item not-available">
+                    <span>Lab Coat</span>
+                    <span class="status">Available</span>
+                </div>
+
+                <div class="item available">
+                    <span>Previous Year Question Papers</span>
+                    <span class="status">Available</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ridha -->
+        <div data-subject="biochemistry" class="profile-card">
+            <div class="profile-header">
+                <img src="https://via.placeholder.com/90" alt="Ridha">
+                <div>
+                    <h2>Ridha</h2>
+                    <p>Biochemistry</p>
+                </div>
+            </div>
+
+            <div  class="donation-section">
+                <h3>Donation Items</h3>
+
+                <div class="item available">
+                    <span>Biochemistry Handbook</span>
+                    <span class="status">Available</span>
+                </div>
+
+                <div class="item available">
+                    <span>Lab coat</span>
+                    <span class="status">Available</span>
+                </div>
+
+                <div class="item not-available">
+                    <span>biochemistry notes</span>
+                    <span class="status">Not Available</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ishra -->
+        <div data-subject="Biotechnology" class="profile-card">
+            <div class="profile-header">
+                <img src="https://via.placeholder.com/90" alt="Ishra">
+                <div>
+                    <h2>Ishra</h2>
+                    <p>Biotechnology</p>
+                </div>
+            </div>
+
+            <div class="donation-section">
+                <h3>Donation Items</h3>
+
+                <div class="item available">
+                    <span>Biotech Lab Manual</span>
+                    <span class="status">Available</span>
+                </div>
+
+                <div class="item not-available">
+                    <span>lab coat</span>
+                    <span class="status"> Available</span>
+                </div>
+
+                <div class="item available">
+                    <span>Semester Notes</span>
+                    <span class="status">Available</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Isha -->
+         </div>
+         <script>
+            const params = new URLSearchParams(window.location.search);
+            const subjectId = params.get("id");
+            
+            console.log("Subject ID from URL:", subjectId);
+
+            const cards = document.querySelectorAll(".profile-card");
+            console.log("Number of cards found:", cards.length);
+
+            if (subjectId && subjectId.trim() !== "") {
+                cards.forEach(card => {
+                    const cardSubject = card.getAttribute("data-subject");
+                    console.log("Card subject:", cardSubject, "vs URL subject:", subjectId);
+                    
+                    // Case-insensitive comparison
+                    if (cardSubject && cardSubject.toLowerCase().trim() !== subjectId.toLowerCase().trim()) {
+                        console.log("Hiding card:", cardSubject);
+                        card.style.display = "none";
+                    } else {
+                        console.log("Showing card:", cardSubject);
+                    }
+                });
+            } else {
+                console.log("No subject ID provided, showing all cards");
+            }
+         </script>
+</body>
